@@ -2,8 +2,14 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
+type props = {
+    icon: string,
+    title: string,
+    content: string,
+    index: number
+}
 
-function FeatureCard({ icon, title, content, index }: any) {
+function FeatureCard({ icon, title, content, index }: props) {
     return (
         <div className={`flex felx-row p-6 rounded-[20px] 
         ${index !== features.length - 1} ? 'mb-6' : 'mb-0' feature-card`}>
