@@ -16,8 +16,8 @@ export default function Footer() {
                 </div>
                 <div className="flex-[1.5] w-full flex flex-row justify-between
                 flex-wrap md:mt-8 mt-10">
-                    {footerLinks.map((footerLink) => (
-                        <div key={footerLink.key}
+                    {footerLinks.map((footerLink)  => (
+                        <div 
                             className="flex flex-col ss:my-0 my-4 min-w-[150px]">
                             <h4 className="font-popping font-medium text-[18px]
                             leading-[27px] text-white">
@@ -25,7 +25,7 @@ export default function Footer() {
                             </h4>
                             <ul className="list-none mt-4">
                                 {footerLink.links.map((Link, index) => (
-                                    <li key={Link.name}
+                                    <li key={Link.name} 
                                         className={`font-poppins font-normal
                                         text-[16px] leading-[24px] text-dimWhite
                                         hover:text-secondary cursor-pointer 

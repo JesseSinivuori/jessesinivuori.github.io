@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 
-function FeatureCard({ icon, title, content, index }) {
+function FeatureCard({ icon, title, content, index }: any) {
     return (
         <div className={`flex felx-row p-6 rounded-[20px] 
         ${index !== features.length - 1} ? 'mb-6' : 'mb-0' feature-card`}>
