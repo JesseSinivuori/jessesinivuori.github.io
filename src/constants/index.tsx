@@ -1,22 +1,17 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, react, javascript, csharp, html5, css3, tailwindcss, git, github, unity, typescript, python, java, kotlin, photoshop, premierepro, trello, vscode } from "../assets";
 
 export const navLinks = [
+  /*
   {
-    id: "home",
+    id: "/",
     title: "Home",
   },
+  */
   {
-    id: "features",
-    title: "Features",
+    id: "mailto:[sinivuorii@gmail.com]",
+    title: "Contact",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+
 ];
 
 export const features = [
@@ -69,6 +64,60 @@ export const feedback = [
     img: people03,
   },
 ];
+
+export const mySkills = [
+  {
+    id: 'language 1',
+    img: react,
+    name: 'React',
+  },
+  {
+    id: 'language 2',
+    img: javascript,
+    name: 'JavaScript',
+  },
+  {
+    id: 'language 3',
+    img: typescript,
+    name: 'TypeScript',
+  },
+  {
+    id: 'language 4',
+    img: html5,
+    name: 'HTML',
+  },
+  {
+    id: 'language 5',
+    img: css3,
+    name: 'CSS',
+  },
+  {
+    id: 'language 6',
+    img: tailwindcss,
+    name: 'Tailwind CSS',
+  },
+  {
+    id: 'language 7',
+    img: csharp,
+    name: 'C Sharp',
+  },
+  {
+    id: 'language 8',
+    img: python,
+    name: 'Python',
+  },
+  {
+    id: 'language 9',
+    img: java,
+    name: 'Java',
+  },
+  {
+    id: 'language 10',
+    img: kotlin,
+    name: 'Kotlin',
+  },
+];
+
 
 export const stats = [
   {

@@ -1,6 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { mygamegif, unity, csharp } from '../assets'
 
 type props = {
     icon: string,
@@ -31,23 +32,83 @@ function FeatureCard({ icon, title, content, index }: props) {
 }
 
 export default function Business() {
+    const images = [
+        {
+            id: 'unity',
+            img: unity,
+            name: 'Unity',
+        },
+        {
+            id: 'csharp',
+            img: csharp,
+            name: 'C Sharp',
+        },
+    ];
     return (
-        <section id='features' className={layout.section}>
-            <div className={layout.sectionInfo}>
-                <h2 className={styles.heading2}>You do the business, <br className="sm:block hidden" />we'll handle
-                    the money.</h2>
-                <p className={`${styles.paragraph} max-w-[470px]`}>With the right credit card, youcan improve you financial life by
-                    building credit, earning rewards and saving money. But with hundreds
-                    of credit cards on the market.
-                </p>
-                <Button styles='mt-10' />
+        <section id='features'>
+            <section className={`${layout.section} `}>
+                <div className={`${layout.sectionInfo}
+                `}>
 
-            </div>
-            <div className={`${layout.sectionImg} flex-col`}>
+                    <h2 className={`${styles.heading2} ${styles.flexCenter}
+                text-center mb-6 
+                `}>
+                        Original{" "}
+                        {/*<br className={`${styles.heading2} sm:block hidden
+                `} />*/}
+                        Game
+                    </h2>
+                    <p className={`${styles.paragraph} w-full 
+                 ${styles.flexCenter} 
+                `}>
+                        Designed and developed from scratch.<br />
+                        Made in Unity, using C Sharp.
+                    </p>
+                    <div className={`${styles.flexCenter} w-full`}>
+                        {images.map((img) => (
+                            <div className={`justify-start
+                            items-center flex-row  hover:scale-[1.2] mt-6 `}>
+                                <div key={img.id} className={`${styles.flexCenter}  flex-row flex-wrap sm:mb-6 mb-2 
+                                 '} 
+                            `}>
+                                    <img src={img.img} className={`object-contain object-center
+                        sm:w-[80px] w-[80px] m-6 ${img.id !== 'unity' ? '' : 'bg-white'}
+                        
+                        `} />
+                                    <h4 className={`text-center font-poppins font-normal 
+                    xs:-text-[30px] text-[20px] xs:leading-[53px] leading-[43px] 
+                    text-white flex-col`}>{img.name}</h4>
+
+
+
+
+                                </div>
+                            </div>
+                        ))}
+
+
+
+                    </div>
+
+                    {/*
+                <Button styles='mt-10' />
+    */}
+
+
+                </div>
+                <div className={`${layout.sectionImg} `}>
+
+                    <img src={mygamegif} alt='My game gif' className={`
+            object-contain`}/>
+
+                    {/*
                 {features.map((feature, index) => (
                     <FeatureCard key={feature.id} {...feature} index={index} />
-                ))}
-            </div>
+                ))} */}
+
+                </div>
+            </section>
+
         </section>
     )
 }
