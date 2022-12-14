@@ -1,27 +1,35 @@
 import styles from './style';
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from './components';
+import { Hero, Footer, Skills, Game } from './components';
+import Website from './components/Website';
+import ContactBottom from './components/ContactBottom';
 
+//return home page
 export default function App() {
   return (
-    <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} `}>
-        </div>
-      </div>
+    //container
+    <div className="w-full overflow-hidden">
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      {/**container */}
+      <div className={`${styles.flexStart}`}>
+
+        {/**content container */}
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      {/**container */}
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+
+        {/**content container */}
         <div className={`${styles.boxWidth}`}>
-          <Stats />
-          <Business />
+          <Skills />
+          <Game />
+          <Website />
+          <ContactBottom />
+          <Footer styles={''} />
         </div>
       </div>
-
     </div>
   )
 }
