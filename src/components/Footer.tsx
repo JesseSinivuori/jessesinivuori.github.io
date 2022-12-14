@@ -21,10 +21,10 @@ export default function Footer(props: Props) {
                                     flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
 
                         {/**footer text */}
-                        <p className="font-popping font-normal text-center text-[18px]
+                        <p className="font-popping font-normal text-center
+                                    text-[16px]
                                     leading-[27px] text-white ">
                             2022 Jesse Sinivuori.{" "}
-                            <br className="xs:hidden block" />
                             All Rights Reserved.
                         </p>
                     </div>

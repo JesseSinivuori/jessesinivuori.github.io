@@ -19,7 +19,7 @@ export default function Contact() {
 
             {/**a link to open email app*/}
             <div className={`${styles.paragraph} ${styles.flexCenter}`}>
-                <a href="mailto:[sinivuorii@gmail.com]">
+                <a href="mailto:sinivuorii@gmail.com">
                     <p className="hover:text-[#70ffff] text-[18px]">
                         Click here to mail.
                     </p>
