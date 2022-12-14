@@ -84,13 +84,13 @@ Error generating stack: `+i.message+`
         
         `,children:[v("div",{className:`${P.heading2} `,children:v("h2",{className:"ss:text-[36px] xs:text-[28px] text-[22px]",children:"sinivuorii@gmail.com"})}),v("div",{className:`${P.paragraph} ${P.flexCenter}`,children:v("a",{href:"mailto:sinivuorii@gmail.com",children:v("p",{className:"hover:text-[#70ffff] text-[18px]",children:"Click here to mail."})})})]})}function Um(){const e=[{id:"unity",img:Rm,name:"Unity"},{id:"csharp",img:Ac,name:"C Sharp"}];return M("section",{id:"game",className:`${Fn.section} `,children:[M("div",{className:`${Fn.sectionInfo} `,children:[M("h2",{className:`${P.heading2} ${P.flexCenter} text-center mb-6 `,children:["Original"," ","Game"]}),M("p",{className:`${P.paragraph} w-full ${P.flexCenter} `,children:["Designed and developed from scratch."," ",v("br",{className:"xs:block hidden"}),"Made in Unity, using C Sharp."]}),v("div",{className:`${P.flexCenter} w-full`,children:e.map(t=>M("div",{className:`${P.flexCenter} flex-row flex-wrap sm:mb-6
                         mb-2 hover:scale-[1.2] mt-6`,children:[v("img",{src:t.img,className:`object-contain object-center
-                            w-[80px] min-w-[80px] m-4 xs:m-10 ${t.id!=="unity"?"":"bg-white"}
+                            w-[80px] min-w-[80px] m-10 ${t.id!=="unity"?"":"bg-white"}
                                 `}),v("h4",{className:`text-center font-poppins font-normal 
                         xs:text-[22px] text-[16px] xs:leading-[53px] leading-[43px] 
                         text-white flex-col `,children:t.name})]},t.id))})]}),v("div",{className:`${Fn.sectionImg} `,children:v("img",{src:Om,alt:"My game gif",className:`
                 object-contain max-w-[470px] min-w-[360px]`})})]})}function Bm(){return M("section",{className:`${P.flexStart} flex-row flex-wrap sm:mb-20 mb-6 relative`,children:[v("h4",{className:`${P.heading2} ${P.flexCenter} mb-20`,children:"My skills"}),v("div",{className:`${P.flexCenter} flex-wrap `,children:jm.map(e=>M("div",{className:`justify-start 
                     items-center flex-row hover:scale-[1.2] `,children:[v("div",{className:`${P.flexCenter} flex-row flex-wrap`,children:v("img",{src:e.img,className:`object-contain object-center
-                            w-[80px] min-w-[80px] m-6 xs:m-10`})}),v("h4",{className:`text-center font-poppins font-normal 
+                            w-[80px] min-w-[80px] m-10`})}),v("h4",{className:`text-center font-poppins font-normal 
                         xs:text-[22px] text-[16px] xs:leading-[53px] leading-[43px] 
                         text-white flex-col mb-8`,children:e.name})]},e.id))})]})}function Wm(){const e=[{id:"react",img:Vc,name:"React"},{id:"typescript",img:Qc,name:"Typescript"},{id:"html5",img:Kc,name:"HTML"},{id:"tailwindcss",img:Hc,name:"Tailwind CSS"}];return v("section",{children:M("section",{id:"website",className:`${Fn.sectionReverse} ${P.flexCenter} mb-20`,children:[v("div",{className:`${Fn.sectionImgReverse} ${P.flexStart} `,children:v("img",{src:$m,alt:"Image of my code.",className:` z-[5] w-full 
                     object-contain
@@ -104,7 +104,7 @@ Error generating stack: `+i.message+`
                             items-center hover:scale-[1.2] mt-6 sm:mb-6 mb-2 
                             
                             `,children:[v("img",{src:t.img,className:`object-contain object-center
-                            w-[80px] min-w-[80px] m-4 xs:m-10 
+                            w-[80px] min-w-[80px] m-10 
                                 `}),v("h4",{className:`text-center font-poppins font-normal 
                         xs:text-[22px] text-[16px] xs:leading-[53px] leading-[43px] 
                         text-white flex-col `,children:t.name})]},t.id))})]})]})})}function Vm(e){return v("div",{className:"",children:v(Dn,{to:e.to,children:v("button",{type:"button",className:`py-4 px-6 font-poppins
