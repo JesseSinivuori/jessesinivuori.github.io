@@ -88,7 +88,7 @@ export default function Website() {
 
                                 {/**image */}
                                 <img src={img.img} className={`object-contain object-center
-                            w-[80px] min-w-[80px] m-4 xs:m-10 
+                            w-[80px] min-w-[80px] m-10 
                                 `} />
 
                                 {/**name */}

@@ -34,7 +34,7 @@ export default function Game() {
                 {/**text under header*/}
                 <p className={`${styles.paragraph} w-full ${styles.flexCenter} `}>
                     Designed and developed from scratch.{" "}
-                    <br className="xs:block hidden"/>
+                    <br className="xs:block hidden" />
                     Made in Unity, using C Sharp.
                 </p>
 
@@ -50,7 +50,7 @@ export default function Game() {
 
                             {/**image */}
                             <img src={img.img} className={`object-contain object-center
-                            w-[80px] min-w-[80px] m-4 xs:m-10 ${img.id !== 'unity' ? '' : 'bg-white'}
+                            w-[80px] min-w-[80px] m-10 ${img.id !== 'unity' ? '' : 'bg-white'}
                                 `} />
 
                             {/**name of image */}

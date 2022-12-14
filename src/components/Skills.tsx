@@ -27,7 +27,7 @@ export default function Skills() {
                         {/**image */}
                         <div className={`${styles.flexCenter} flex-row flex-wrap`}>
                             <img src={skills.img} className={`object-contain object-center
-                            w-[80px] min-w-[80px] m-6 xs:m-10`} />
+                            w-[80px] min-w-[80px] m-10`} />
                         </div>
 
                         {/**name */}
