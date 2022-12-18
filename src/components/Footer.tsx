@@ -18,7 +18,7 @@ export default function Footer(props: Props) {
 
                     {/**make the gray line */}
                     <div className="w-full flex-row justify-between items-center md:flex-row
-                                    flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+                                     pt-6 border-t-[1px] border-t-[#3F3E45]">
 
                         {/**footer text */}
                         <p className="font-popping font-normal text-center

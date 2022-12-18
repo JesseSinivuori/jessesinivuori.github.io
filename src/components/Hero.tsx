@@ -17,8 +17,8 @@ export default function Hero() {
                     {/**heading */}
                     <h1 className='flex-1 font-poppins font-normal ss:text-[72px]
                     text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-                        .jesse <br className='sm:block hidden' /> {" "}
-                        <span className='text-gradient'>sinivuori</span> {" "}
+                        .&#106;ess&#101; <br className='sm:block hidden' /> {" "}
+                        <span className='text-gradient'>s&#105;niv&#117;o&#114;&#105;</span> {" "}
                     </h1>
 
                     {/**button */}

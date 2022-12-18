@@ -29,7 +29,7 @@ export default function Navbar() {
                             {/**logo text */}
                             <p className='text-white font-light hover:tracking-widest'>
                                 <span className={'text-white'}>.</span>
-                                j
+                                &#106;
                                 <span className={'text-[#70ffff] '}>s</span>
                             </p>
                         </Link>

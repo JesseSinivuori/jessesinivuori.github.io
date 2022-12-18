@@ -41,7 +41,7 @@ export default function Website() {
                 <div className={`${layout.sectionImgReverse} ${styles.flexStart} `}>
 
                     {/**image */}
-                    <img src={codeimg} alt='Image of my code.' className={` z-[5] w-full 
+                    <img src={codeimg} alt='Image of my code.' className={` z-[5]
                     object-contain
                     w-[470px]
                     max-w-[470px]
